@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #1F2732;
+    height: 100vh;
+}
+.footer_Cuerpo{
+    display: flex;
+    height: 100vh;
+    width: 198vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+.Footer_Medio{
+
+}

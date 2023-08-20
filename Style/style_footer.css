@@ -7,15 +7,108 @@ footer{
     background-color: #1F2732;
     height: 100vh;
 }
-.footer_Cuerpo{
+.footer{
     display: flex;
     height: 100vh;
-    width: 198vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 100px;
+    gap: 55px;
 }
-.Footer_Medio{
+.Footer_Encabezado{
+    width: 185vh;
+}
+.Footer_Encabezado img{
+    width: 185vh;
+}
+.Footer_Medio{display: flex;gap: 50px;width: 185vh;}
+.Footer_Medio a{
+    font-family: Outfit;
+    font-size: 18px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.Footer_Medio h4{
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 10;
+    color: #D7D7D7 ;
+}
+.Titulos_Footer{display: flex;flex-direction: column;gap: 15px;}
+.Titulos_Footer h3{
+    color: #D7D7D7;
+    font-family: Cormorant Garamond;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Titulos_Footer hr{
+    border-color: #838393cc;
+}
+.Container{display: flex;flex-direction: column;gap: 40px;width: 242px;}
+.Quick_Cuerpo{
+display: flex;
+color: white;
+gap: 30px;
+}
+.Quicks{
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.Cuerpo{
+display: flex;
+flex-direction: column;    
+gap: 15px;
+color: white;
+}
+.Contact_Cuerpo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 40px;
+}
+.Footer_Final{
+    display: flex;
+    flex-direction: column;
+    width: 185vh;
+}
+.Footer_Final hr{
+    border-color: #838393cc
+}
+.Final_Cuerpo{
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0;
+    align-items: center;
+}
+.Copyright{
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #D7D7D7;
 
+
+}
+.Copyright span{
+    color: #D1B06B ;
+}
+.Redes{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.Redes img{
+    height: 20px;
+}
+.Redes h4{
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color:  #D1B06B;
 }

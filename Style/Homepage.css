@@ -2,17 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap");
 
-/* -------------------------------------------------Estilos Abouts Us-------------------------------------------------------- */
 .Abouts_Us {
     background-color: rgb(31, 39, 50);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11%;
 }
 
 .Abouts_Cuerpo {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: inherit;
     gap: 40px;
 }
 
@@ -23,14 +25,13 @@
 }
 
 .imgs_Abouts img {
-    width: 350px;
+    width: 440px;
 }
 
 .Texts_Abouts {
     display: flex;
     flex-direction: column;
-    width: 115vh;
-    gap: 30px;
+    gap: 55px;
 }
 
 .Texts_Titulo {
@@ -40,12 +41,12 @@
 }
 
 .Texts_Titulo img {
-    width: 70px;
+    width: 80px;
 }
 
 .Texts_Titulo h2 {
     font-family: "Cormorant Garamond";
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500;
     letter-spacing: 0em;
     text-align: left;
@@ -60,7 +61,7 @@
 
 .Texts_Medio p {
     font-family: Outfit;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
@@ -75,12 +76,12 @@
 }
 
 .Medio_img img {
-    width: 60px;
+    width: 80px;
 }
 
 .Medio_img h3 {
     font-family: "Luxurious Script";
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
@@ -99,7 +100,7 @@
 
 .Texts_Final p {
     font-family: Outfit;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 0em;
     text-align: left;
@@ -123,20 +124,17 @@
 }
 
 .Years_Experiance img {
-    width: 82px;
+    width: 85px;
 }
 
-
-
-/* -------------------------------------------------Estilos Practis Areas-------------------------------------------------------- */
 .Practis_Areas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(22, 29, 39);
-    height: 150vh;
-    padding: 100px;
+    height: 120vh;
+    padding: 110px;
 }
 
 .Practis_Cuerpo {
@@ -149,7 +147,7 @@
 
 .Practis_Encabezado {
     display: flex;
-    width: 180vh;
+    width: 143vh;
     justify-content: space-between;
     align-items: center;
 }
@@ -186,15 +184,14 @@
 
 .Practis_Article {
     display: grid;
-    width: 180vh;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, clamp(300px, 30vw, 450px));
     gap: 20px;
+    justify-content: center;
 }
 
 .article {
     display: flex;
     flex-direction: column;
-    width: 353px;
     background-color: rgb(31, 39, 50);
     gap: 30px;
     padding: 30px;
@@ -245,17 +242,16 @@
 }
 
 .button_Article button:hover {
-    background-color: #D1B06B;
-    color: #161D27;
+    background-color: rgb(209, 176, 107);
+    color: rgb(22, 29, 39);
 }
 
-
-/* -------------------------------------------------Estilos Counters-------------------------------------------------------- */
 .Counters {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px;
+    padding: 20%;
+    height: 120vh;
 }
 
 .Counters_Cuerpo {
@@ -263,20 +259,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 180vh;
     gap: 50px;
+    width: 100%;
 }
 
 .Counters_Cuerpo hr {
     border: 1px solid rgb(203, 203, 203);
-    width: 180vh;
+    width: 100%;
 }
 
 .Counters_Encabezado {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 180vh;
     gap: 50px;
 }
 
@@ -314,8 +309,7 @@
 
 .statistics_Counters {
     display: flex;
-    gap: 25px;
-    width: 180vh;
+    gap: 40px;
     justify-content: space-between;
 }
 
@@ -345,10 +339,6 @@
     color: rgb(144, 144, 144);
 }
 
-.statistics img {
-    width: 110px;
-}
-
 .Counters_logos {
     display: flex;
     flex-direction: column;
@@ -356,51 +346,46 @@
     gap: 30px;
 }
 
-.Logo-Encabezado {
-    width: 500px;
-}
-
 .Logos {
-    width: 180vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 160px;
+    width: 100%;
+    gap: 15%;
 }
 
-
-
-/* -------------------------------------------------Estilos History and Experiance-------------------------------------------------------- */
 .History_Experiance {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 220vh;
+    height: 150vh;
+    padding: 15%;
 }
 
 .History_Experiance::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
-    background-image: url(/imgs/Img-Homepage/martillo_fondo.png);
+    background-image: url("/imgs/Img-Homepage/martillo_fondo.png");
     filter: grayscale(100%);
+    background-repeat: no-repeat;
 }
 
 .History_Cuerpo {
     position: relative;
     z-index: 2;
-    background-color: #1F2732D9;
-    width: 200vh;
+    background-color: rgba(31, 39, 50, 0.85);
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
-    height: 170vh;
-    padding: 50px;
-    gap: 50px;
+    gap: 60px;
+    height: 110vh;
+    padding: 5%;
 }
 
 .History_Izquierda {
@@ -408,7 +393,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 122vh;
 }
 
 .Izquierda_Titulo {
@@ -424,7 +408,7 @@
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .Izquierda_Titulo img,
@@ -442,17 +426,16 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 56vh;
 }
 
 .article_Izquierda h5 {
-    font-family: "Outfit";
+    font-family: Outfit;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: #D1B06B;
+    color: rgb(209, 176, 107);
 }
 
 .article_Izquierda p {
@@ -462,17 +445,16 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: #D7D7D7;
+    color: rgb(215, 215, 215);
 }
 
 .History_Medio {
-    height: 125vh;
+    height: 77vh;
 }
 
 .History_Derecha {
     display: flex;
     flex-direction: column;
-    height: 122vh;
     justify-content: space-between;
 }
 
@@ -485,18 +467,16 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    width: 72vh;
-    height: 87vh;
 }
 
 .Derecha_Cuerpo p {
-    font-family: "Outfit";
+    font-family: Outfit;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: #D7D7D7;
+    color: rgb(215, 215, 215);
 }
 
 .statistics_Experiance {
@@ -517,38 +497,35 @@
 }
 
 .Barras h5 {
-    font-family: "Outfit";
+    font-family: Outfit;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .Derecha_Cuerpo button {
     width: 240px;
     height: 100px;
-    font-family: "Outfit";
+    font-family: Outfit;
     font-size: 22px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    color: #1F2732;
-    background-color: #D1B06B;
+    color: rgb(31, 39, 50);
+    background-color: rgb(209, 176, 107);
     border: none;
 }
 
-
-
-/* -------------------------------------------------Estilos Client Opinions-------------------------------------------------------- */
 .Client_Opinions {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2732;
-    height: 120vh;
+    background-color: rgb(31, 39, 50);
+    height: 130vh;
 }
 
 .Client_Cuerpo {
@@ -556,8 +533,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 70px;
-    width: 190vh;
+    gap: 90px;
 }
 
 .Client_Encabezado {
@@ -569,12 +545,12 @@
 
 .Client_Encabezado h2 {
     font-family: "Cormorant Garamond";
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0em;
     text-align: center;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .Client_Encabezado img {
@@ -583,7 +559,7 @@
 
 .Client_Testimonial {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, clamp(300px, 30vw, 370px));
     gap: 15px;
 }
 
@@ -602,35 +578,35 @@
 .Inverso_Texto {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding: 35px;
-    background-color: #2E3947;
+    gap: 40px;
+    padding: 80px 60px;
+    background-color: rgb(46, 57, 71);
     border-bottom-left-radius: 40px;
 }
 
 .Reverso_Texto {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    background-color: #2E3947;
-    padding: 35px;
+    gap: 40px;
+    background-color: rgb(46, 57, 71);
+    padding: 80px 60px;
     border-top-left-radius: 40px;
 }
 
 .Reverso_Texto img,
 .Inverso_Texto img {
-    width: 40px;
+    width: 50px;
 }
 
 .Reverso_Texto p,
 .Inverso_Texto p {
-    font-family: "Outfit";
-    font-size: 16px;
+    font-family: Outfit;
+    font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: #D7D7D7;
+    color: rgb(215, 215, 215);
 }
 
 .Persona_Reverso {
@@ -648,11 +624,11 @@
 .Persona_Reverso h4,
 .Persona_Inverso h4 {
     font-family: "Cormorant Garamond";
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF;
+    text-align: left;
+    color: rgb(255, 255, 255);
 }
 
 .Persona_Reverso span,
@@ -661,27 +637,22 @@
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0em;
-    text-align: center;
-    color: #D7D7D7;
+    text-align: left;
+    background-color: rgb(215, 215, 215);
 }
 
-
-
-/* -------------------------------------------------Estilos Team-------------------------------------------------------- */
 .Team {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 180vh;
+    height: 170vh;
     position: relative;
+    padding: 10%;
 }
 
 .Team_Cuerpo {
     display: flex;
     flex-direction: column;
-    width: 180vh;
-    align-items: center;
-    justify-content: center;
     gap: 80px;
 }
 
@@ -699,7 +670,7 @@
     line-height: 52px;
     letter-spacing: 0em;
     text-align: center;
-    color: #161D27;
+    color: rgb(22, 29, 39);
 }
 
 .Team_Encabezado img {
@@ -716,7 +687,7 @@
 
 .Miembros_img {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, clamp(290px, 30vw, 480px));
     gap: 30px;
 }
 
@@ -735,7 +706,7 @@
     align-items: center;
     padding: 10px 15px;
     top: 90%;
-    left: 66px;
+    left: 30%;
 }
 
 .Redes_Miembros h3 {
@@ -745,17 +716,17 @@
     line-height: 34px;
     letter-spacing: 0em;
     text-align: center;
-    color: #1C1C1C;
+    color: rgb(28, 28, 28);
 }
 
 .Redes_Miembros span {
-    font-family: "Outfit";
+    font-family: Outfit;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    color: #D1B06B;
+    color: rgb(209, 176, 107);
 }
 
 .Redes_Miembros div {
@@ -764,56 +735,54 @@
 }
 
 .Redes_Miembros hr {
-    border: 1px solid #D1B06B;
+    border: 1px solid rgb(209, 176, 107);
     width: 90px;
 }
 
 .Thomas,
 .Nikolona,
 .Michal {
-    width: 60vh;
+    width: 50vh;
 }
 
 .Team_Miembros button {
-    border: 1px solid #1F2732;
+    border: 1px solid rgb(31, 39, 50);
     width: 250px;
     margin-left: 44px;
     height: 70px;
-    font-family: "Outfit";
+    font-family: Outfit;
     font-size: 22px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    color: #1F2732;
+    color: rgb(31, 39, 50);
     background-color: white;
     cursor: pointer;
 }
 
-
-
-/* -------------------------------------------------Estilos Consultation Contact-------------------------------------------------------- */
 .Consultation_Contact {
     display: flex;
-    height: 110vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #1F2732;
+    background-color: rgb(31, 39, 50);
+    padding: 14%;
 }
 
 .Consultation_Cuerpo {
     display: flex;
-    width: 180vh;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 75px;
+    width: 100%;
 }
 
 .Contacto {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 100vh;
+    width: 100%;
 }
 
 .Contacto h2 {
@@ -823,29 +792,29 @@
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .Contacto p {
-    font-family: "Outfit";
+    font-family: Outfit;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: #D7D7D7;
+    color: rgb(215, 215, 215);
 }
 
 .Contacto button {
     border: none;
-    background-color: #D1B06B;
-    font-family: "Outfit";
+    background-color: rgb(209, 176, 107);
+    font-family: Outfit;
     font-size: 22px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    color: #1F2732;
+    color: rgb(31, 39, 50);
     width: 260px;
     height: 70px;
     cursor: pointer;
@@ -854,21 +823,19 @@
 .Number_Consulta {
     display: flex;
     background-color: white;
-    height: 61vh;
     justify-content: center;
     align-items: center;
-    width: 105vh;
+    padding: 4%;
+    width: 100%;
 }
 
 .Free_Consultation {
-    border: 14px solid #DFDFDF;
+    border: 14px solid rgb(223, 223, 223);
     display: flex;
     flex-direction: column;
     gap: 30px;
     justify-content: center;
-    height: 50vh;
-    width: 80vh;
-    padding: 24px;
+    padding: 6%;
 }
 
 .Free_Consultation h3 {
@@ -878,17 +845,17 @@
     line-height: 45px;
     letter-spacing: 0em;
     text-align: left;
-    color: #161D27;
+    color: rgb(22, 29, 39);
 }
 
 .Free_Consultation p {
-    font-family: "Outfit";
-    font-size: 18px;
+    font-family: Outfit;
+    font-size: 20px;
     font-weight: 400;
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
-    color: #909090;
+    color: rgb(144, 144, 144);
 }
 
 .Call_Us {
@@ -902,46 +869,110 @@
 }
 
 .Call_Us span {
-    font-family: "Outfit";
-    font-size: 18px;
+    font-family: Outfit;
+    font-size: 20px;
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
-    color: #1F2732;
+    color: rgb(31, 39, 50);
 }
 
 .Call_Us h5 {
-    font-family: "Outfit";
+    font-family: Outfit;
     font-size: 28px;
     font-weight: 600;
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
-    color: #161D27;
+    color: rgb(22, 29, 39);
 }
 
-
-
-/* -------------------------------------------------Estilos Form-------------------------------------------------------- */
-.Form{
+.Form {
     display: flex;
     height: 110vh;
     justify-content: center;
-    align-items:center ;
-    background-image: url(/imgs/Img-Homepage/Biblioteca-Fondo.jpg);
+    align-items: center;
+    background-image: url("/imgs/Img-Homepage/Biblioteca-Fondo.jpg");
+    padding: 10% 14%;
 }
-.form_Cuerpo{
-    padding: 105px;
-    display: flex;
-    flex-direction: column;
-    background-color: #1F2732;
-    height: 80vh;
-    width:160vh;
+
+.form_Cuerpo {
+    padding: 70px;
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: rgb(31, 39, 50);
+    place-content: space-between center;
+    width: 100%;
+    height: 100%;
 }
-.form_Datos{
+
+.form_Datos {
     display: grid;
     grid-template-columns: auto auto;
-    height: 90px;
     gap: 40px;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.form_Datos input {
+    width: 505px;
+    height: 65px;
+    background-color: rgb(31, 39, 50);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(58, 69, 83);
+}
+
+.form_Datos input::placeholder {
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(215, 215, 215);
+}
+
+.Your_Message {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: center;
+}
+
+.Your_Message label {
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(215, 215, 215);
+    width: 110vh;
+}
+
+.Your_Message input {
+    height: 85px;
+    background-color: rgb(31, 39, 50);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(58, 69, 83);
+    width: 110vh;
+}
+
+.Your_Message button {
+    height: 90px;
+    width: 300px;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
 }

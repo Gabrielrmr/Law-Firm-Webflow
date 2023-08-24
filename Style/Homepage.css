@@ -63,7 +63,6 @@
 /*------------------------------------------------------Estilos Abouts Us--------------------------------------------------------------------- */
 .Abouts_Us {
     background-color: rgb(31, 39, 50);
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,8 +175,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(22, 29, 39);
-    height: 120vh;
-    padding: 110px;
+    padding: 11%;
 }
 .Practis_Cuerpo {
     display: flex;
@@ -281,7 +279,6 @@
     justify-content: center;
     align-items: center;
     padding: 7% 11% 0 11%;
-    height: 135vh;
 }
 .Counters_Cuerpo {
     display: flex;
@@ -388,8 +385,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 150vh;
-    padding: 15%;
+    padding: 11%;
 }
 .History_Experiance::before {
     content: "";
@@ -533,7 +529,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(31, 39, 50);
-    height: 130vh;
+    padding: 11%;
 }
 .Client_Cuerpo {
     display: flex;
@@ -636,9 +632,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 170vh;
     position: relative;
-    padding: 10%;
+    padding: 11%;
 }
 .Team_Cuerpo {
     display: flex;
@@ -740,11 +735,10 @@
 /*------------------------------------------------------Estilos Consultation Contact--------------------------------------------------------------------- */
 .Consultation_Contact {
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     background-color: rgb(31, 39, 50);
-    padding: 14%;
+    padding: 11%;
 }
 .Consultation_Cuerpo {
     display: flex;
@@ -780,7 +774,7 @@
 .Contacto button {
     border: none;
     background-color: rgb(209, 176, 107);
-    font-family: Outfit;
+    font-family: "Outfit";
     font-size: 22px;
     font-weight: 500;
     line-height: 28px;
@@ -860,7 +854,7 @@
     justify-content: center;
     align-items: center;
     background-image: url("/imgs/Img-Homepage/Biblioteca-Fondo.jpg");
-    padding: 10% 14%;
+    padding: 10% 11%;
 }
 .form_Cuerpo {
     padding: 70px;
@@ -939,9 +933,8 @@
 /*------------------------------------------------------Estilos Blog--------------------------------------------------------------------- */
 .Blog {
     display: flex;
-    height: 330vh;
     background-color: rgb(31, 39, 50);
-    padding: 14%;
+    padding: 11%;
 }
 .Blog_Cuerpo {
     display: flex;

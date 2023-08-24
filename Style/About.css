@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap");
+/*------------------------------------------Estilos Banner-------------------------------------------------------  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Banner{
+    display: flex;
+    background-color: #1F2732;
+    flex-direction: column;
+    padding: 2% 11%;
+    position: relative;
+}
+.Banner_Cuerpo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap:150px
+}
+.Decoracion_Peter{
+    position: absolute;
+    border: 1px solid rgb(78, 85, 95);
+    width: 621px;
+    height: 733px;
+    top: 32%;
+}
+.Iam_Peter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-left: 40px;
+}
+.Peter{
+    width: 100%;
+    z-index: 2;
+}
+.Peter_Contenedor{
+    z-index: 2;
+}
+.Peter_Texto{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.icono{
+    width: 100px;
+}
+.Texto_Principal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.Texto_Principal h1{
+    font-family: "Cormorant Garamond";
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.Texto_Principal p{
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D7D7D7;
+}
+.Redes_Peter{
+    display: flex;
+    gap: 20px;
+}
+.Redes_Peter img{
+    width: 20px;
+}
+.Peter_Texto button{
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1F2732;
+    cursor: pointer;
+    width: 290px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+
+/*------------------------------------------Estilos Story-------------------------------------------------------  */
+.Story{
+    display: flex;
+    background-color: #1F2732;
+    padding: 8%;
+}
+.Story_Cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 120px;
+}
+.Story_Encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+.Story_Encabezado div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.Story_Encabezado h2{
+    font-family: "Cormorant Garamond";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.Story_Encabezado p{
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Story_img{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*------------------------------------------Estilos Experiance-------------------------------------------------------  */
+.Experiance{
+    display: flex;
+    background-color: #D1B06B;
+}
+.Experiance_Texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    gap: 60px;
+}
+.Experiance_Cuerpo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Experiance_Texto p {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F2732;
+}
+.Experiance_Titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Experiance_Titulo h2 {
+    font-family: "Cormorant Garamond";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F2732;
+}
+.Experiance_Titulo img {
+    width: 100px;
+}
+.statistics_Experiance {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Barras {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.Barras div {
+    display: flex;
+    justify-content: space-between;
+}
+.Barras h5 {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F2732;
+}
+
+
+/*------------------------------------------Estilos Experiance-------------------------------------------------------  */
+.Values{
+    display: flex;
+    background-color: #1F2732;
+    padding: 15%;
+}
+.Values_Cuerpo{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    gap: 100px;
+}
+.Cuerpo_Izquierdo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+.Cuerpo_Izquierdo h2{
+    font-family: "Cormorant Garamond";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.Cuerpo_Izquierdo img{
+    width: 100px;
+}
+.Cuerpo_Izquierdo p,.Derecha_Article p{
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D7D7D7;
+}
+.Cuerpo_Derecha{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+.Derecha_Article{
+    display: flex;
+    flex-direction: column;
+    background-color: #2E3642;
+    padding: 10% 7%;
+    gap: 15px;
+}
+.Derecha_Article h3{
+    font-family: "Cormorant Garamond";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.img_Article{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #1F2732;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_Article img{
+    width: 25px;
+}
+.Texto_Article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/*------------------------------------------------------Estilos Team--------------------------------------------------------------------- */
+.Team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10%;
+}
+.Team_Cuerpo {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.Team_Encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.Team_Encabezado h2 {
+    font-family: "Cormorant Garamond";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(22, 29, 39);
+}
+.Team_Encabezado img {
+    width: 105px;
+}
+.Team_Miembros {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 130px;
+    align-items: center;
+}
+.Miembros_img {
+    display: grid;
+    grid-template-columns: repeat(3, clamp(290px, 30vw, 480px));
+    gap: 30px;
+}
+.Imagen_Miembros {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.Redes_Miembros {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    background-color: white;
+    align-items: center;
+    padding: 10px 15px;
+    top: 90%;
+    left: 30%;
+}
+.Redes_Miembros h3 {
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(28, 28, 28);
+}
+.Redes_Miembros span {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(209, 176, 107);
+}
+.Redes_Miembros div {
+    display: flex;
+    gap: 20px;
+}
+.Redes_Miembros hr {
+    border: 1px solid rgb(209, 176, 107);
+    width: 90px;
+}
+.Thomas,.Nikolona,.Michal {
+    width: 50vh;
+}
+.Team_Miembros button {
+    border: 1px solid rgb(31, 39, 50);
+    width: 250px;
+    margin-left: 44px;
+    height: 70px;
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(31, 39, 50);
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/*------------------------------------------------------Estilos Counters--------------------------------------------------------------------- */
+.Counters{
+    display: flex;
+    padding: 10%;
+}
+.Counters_logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+}
+.Logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.Logo_Encabezado{
+    width: 40%;
+}
+
+
+/*------------------------------------------------------Estilos Clients Opinions--------------------------------------------------------------------- */
+.Client_Opinions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 39, 50);
+    padding: 15% 0;
+}
+.Client_Cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.Client_Encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.Client_Encabezado h2 {
+    font-family: "Cormorant Garamond";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.Client_Encabezado img {
+    width: 100px;
+}
+.Client_Testimonial {
+    display: grid;
+    grid-template-columns: repeat(4, clamp(300px, 30vw, 370px));
+    gap: 15px;
+}
+.Client_Inverso {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Client_Reverso {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Inverso_Texto {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 60px;
+    background-color: rgb(46, 57, 71);
+    border-bottom-left-radius: 40px;
+}
+.Reverso_Texto {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: rgb(46, 57, 71);
+    padding: 80px 60px;
+    border-top-left-radius: 40px;
+}
+.Reverso_Texto img,.Inverso_Texto img {
+    width: 50px;
+}
+.Reverso_Texto p,.Inverso_Texto p {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(215, 215, 215);
+}
+.Persona_Reverso {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Persona_Inverso {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Persona_Reverso h4,.Persona_Inverso h4 {
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.Persona_Reverso span,.Persona_Inverso span {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(215, 215, 215);
+}

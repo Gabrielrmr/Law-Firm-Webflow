@@ -4,7 +4,6 @@ header{
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 0 13%;
 }
 .header_Cuerpo{
     display: flex;
@@ -14,7 +13,6 @@ header{
 }
 .header_Encabezado{
     display:flex;
-    padding-top: 40px;
     justify-content: space-between;
     gap: 30px;
 }

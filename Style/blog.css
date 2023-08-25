@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap");
+/*------------------------------------------Estilos Banner-------------------------------------------------------  */
+.Banner{
+    display:flex;
+    background-image: url(/imgs/img-Pratices/Fondo-Banner.png);
+    background-color: #1F2732;
+    padding: 2% 14% 8% 14%;
+}
+.Banner_Cuerpo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.Cuerpo_Medio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8%;
+    gap: 10px;
+}
+.Cuerpo_Medio h1{
+    font-family: "Cormorant Garamond";
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.Cuerpo_Medio img{
+    width: 115px;
+}
+
+/*------------------------------------------------------Estilos Counters--------------------------------------------------------------------- */
+.Counters{
+    display: flex;
+    padding: 10%;
+}
+.Counters_logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+}
+.Logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.Logo_Encabezado{
+    width: 40%;
+}
+
+
+/*------------------------------------------------------Estilos Blog--------------------------------------------------------------------- */
+.Blog {
+    display: flex;
+    background-color: rgb(31, 39, 50);
+    padding: 11%;
+}
+.Blog_Cuerpo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 100px;
+}
+.Blog_Cuerpo hr {
+    border: 1px solid rgb(58, 69, 83);
+    width: 100%;
+}
+.Blog_Encabezado {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Blog_Encabezado h2 {
+    font-family: "Cormorant Garamond";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.Blog_Encabezado img {
+    width: 100px;
+}
+.Blog_Examination {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+.Blog_Examination img {
+    width: 100%;
+}
+.Examination_Cuerpo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Examination_Cuerpo h4 {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(209, 176, 107);
+}
+.Examination_Cuerpo hr {
+    border: 1px solid rgb(58, 69, 83);
+    width: 94%;
+}
+.Examination_Cuerpo h3 {
+    font-family: "Cormorant Garamond";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.Examination_Cuerpo p {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(215, 215, 215);
+}
+.Blog_Reseñas {
+    display: grid;
+    grid-template-columns: repeat(3, clamp(290px, 23vw, 520px));
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 40px;
+    row-gap: 130px;
+}
+.Examination_Cuerpo a {
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(209, 176, 107);
+}
+.Reseñas {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Reseñas img {
+    width: 100%;
+}
+.Reseñas_Cuerpo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Reseñas_Cuerpo h5 {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(209, 176, 107);
+}
+.Reseñas_Cuerpo hr {
+    border: 1px solid rgb(58, 69, 83);
+}
+.Reseñas_Cuerpo h3 {
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.Reseñas_Cuerpo p {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(215, 215, 215);
+}
+.Reseñas_Cuerpo a {
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(209, 176, 107);
+}

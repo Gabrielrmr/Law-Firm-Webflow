@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap");
+/*------------------------------------------Estilos Banner-------------------------------------------------------  */
+.Banner{
+    display:flex;
+    background-image: url(/imgs/img-Pratices/Fondo-Banner.png);
+    background-color: #1F2732;
+    padding: 2% 14% 7% 14%;
+}
+.Banner_Cuerpo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.Cuerpo_Medio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8%;
+    gap: 10px;
+}
+.Cuerpo_Medio h1{
+    font-family: "Cormorant Garamond";
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.Cuerpo_Medio img{
+    width: 115px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1F2732;
+}
+.contenedor_lisences{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 68%;
+ 
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.sesion_primero{
+    display: flex;
+    flex-direction: row;
+}
+article .imagen_logo{
+    width: 30%;
+}
+
+
+
+
+
+.sesion_segundo{
+  
+    display: flex;
+    flex-direction: row;
+}
+
+.article_uno{
+    width: 25%;
+   
+}
+.lista_article{
+    width: 75%;
+
+}
+.Icons_and_Graphics{
+    width: 25%;
+
+    padding-bottom: 27%;
+}
+.dos_parrafos{
+    width: 75%;
+
+}
+.textuno{
+    padding-bottom: 2%;
+}
+.article_uno .icono_logo{
+    width: 30%;
+}
+.Unsplash{
+    padding-top: 8%;
+    padding-bottom: 8%;   
+}
+.Pixcel{
+    padding-top: 0%;
+    padding-bottom: 8%;   
+}
+.distancia_larga{
+    padding-bottom: 27%;
+}
+h2{
+    color: #FFF;
+    font-family: "Cormorant Garamond";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+.Texto_parrafo{
+    color: #D7D7D7;
+}
+.gap{
+    padding-bottom: 2%;
+}
+article h4{
+    color: #D1B06B;
+}
+
+
+
+
+.sesion_tercero{
+    display: flex;
+    flex-direction: row;
+}
+.Typography{
+    width: 25%;
+}
+.article_parrafo{
+    width: 70%;
+}
+.Typography .icono_logo{
+    width: 30%;
+}

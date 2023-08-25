@@ -34,221 +34,253 @@
     width: 115px;
 }
 
+
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
-    width: 100%; 
+    background:#1F2732;
 }
-.ofter_banner{
-    background: #2E3947; 
-    margin: auto;
+.contenedor{
     width: 100%;
-    height: 100%;
-    padding: 10% 0px 5% 0px;
-}
-.div_img {
-    margin: auto;
-    width: 75%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-
-}
-.iconos{
-    position: absolute;
-    width: 50%;
-    margin-left: 16%;
-    margin-top: 6%;
-    display: flex;
-    flex-direction: column;
-}
-.iconos .icono{
-    width: 52%;
-    padding: 2% 0px 3% 0px;
-}
-.iconomano{
-    width: 8%;
-}
-.iconos .letras{
-    width: 38%;
-}
-.plan_for_justice h2{
-    padding: 15px;
-    color: #FFF;
-    text-align: center;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 110.6%; 
-}
-.plan_for_justice{
-    background: #2E3947; 
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    padding-bottom: 7%;
+    padding-top: 10%;
+   
+}
+.Adres{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.uno{
+    width: 50%;
+    border-right: 1px solid gray;
+}
+.section h2{
+    font-family: "Cormorant Garamond";
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D1B06B;
+   
+}
+.section .titulo{
+    color: #161D27;
     padding-bottom: 2%;
- 
+}
+.section p{
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+} 
+.numero h5{
+    color: white;
+    font-size: 20px;
+}
+.section .parrafo{
+    width: 85%;
+}
+.dos{
+    border-right: 1px solid gray;
+    width: 25%;
+    padding-left: 3%;
+}
+.tres{
+    width: 25%;
+    padding-left: 3%;
 }
 
-.div{
-    background: #2E3947;    
-}
 
-.mains{
+
+
+
+.frame{
+    width: 70%;
+    margin: auto;
+    padding: 3% 0% 3% 0%;
+    background: #161D27;
+}
+.frame_cuadro{
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto;
-    width: 75%;
-    max-height: 906px;
-    margin-bottom: 132px;
+   
 }
-main{
-    background: #1F2732;
-    gap: 10%;
-    width: 32%;
-    margin-bottom: 140px;
-
+.datos{
+    width: 47%;
 }
-
-h2{
-    color: #FFF;
-    text-align: center;
-    font-size: 30px;
+.parrafo{
+    color: #e2e0e0;
+    font-family: "Outfit";
+    font-size: 13px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 110.6%;  
+    font-weight: 200;
+    text-align: start;
 }
-h5{
-    color: #D1B06B;
-    text-align: center;
-    font-family: Outfit;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;  
-    margin-top: 10px;
-}
-.s_uno{
-    padding: 9% 9%;
-    border-bottom: 1px solid gray;
-
-}
-h2{
-    color: #FFF;
-    text-align: center;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 110.6%; 
-}
-.section button{
-    align-items: center;
-    margin: auto;
-    cursor: pointer;
+#mover{
+    text-align: start;
     
 }
-.s_dos h2{
-    color: #D1B06B;
+.h4_diferente{
+    padding-top: 3%;
+    padding-bottom: 4%;
+    
 }
-.s_dos{
-    margin-top: 7%;
-}
-.s_dos button{
-    display: flex;
-    padding: 5px 9px 5px 9px;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    background: #2E3947;
-    border: none;
-    color: white;
-}
-.lista{
-    color: #D7D7D7;
-    text-align: center;
-    font-family: "Outfit";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    width: 75%;
-    height: 340px;
-    flex-shrink: 0;
-    list-style: none;
-    margin: auto;
-    padding-top: 20px;
+.h4_igual{
+    padding-top: 10%;
+    padding-bottom: 4%;
 
 }
-.lista li{
-    border-bottom: 1px solid gray;
-    padding: 15px ;
+.datos_info{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(212, 210, 210);
 }
- .lista .li{
-    border-top: 1px solid gray;
+.mensaje{
+    width: 48%;
+
 }
-.s_cuatro button{
+.div_message{
+    width: 100%;
+    height: 100%;
     display: flex;
-    padding: 5% 25% 5% 25%;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-end;
+}
+.div_vacio .your_message{
+    padding-top: 5%;
+    padding-left: 5%;
+    color: #FFF;
+}
+.div_vacio{
+    height: 60%;
+    border: 1px solid  #fdd47b;
+}
+.mensaje button{
+    display: flex;
+    padding: 4% 6% 4% 6%;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border: 1px solid #D1B06B;
-    margin-bottom: 10%;
-    color: white;
-    background: #1F2732;
+    color: #161D27;
+    border: none;
+    background: #CCAA60;
     cursor: pointer;
+}
+.mensaje button:hover{
+    color: #CCAA60;
+    border: 1px solid #CCAA60;
+    background: #161D27;
+}
 
-
-    font-size: 20px;
-    text-align: center;
+.zona_comunica{
+    width: 100%;
+    padding-bottom: 10%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zona_contacto{
+  
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div_llamadas{
+    background: #161D27;
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article_img .img{
+    width: 75%;
+}
+.article_numero h5{
+    font-size: 12px;
+    color: #CCAA60;
     font-family: "Outfit";
-
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-.s_cuatro button:hover{
-    background: #D1B06B;
-    color: black;
-}
-section .boton_activo{
-    background: #D1B06B;    
-    color: black;
-    cursor: pointer;
-
-    font-size: 20px;
-    text-align: center;
-    font-family: "Outfit";
-
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-section  .boton_activo:hover{
-    border: 1px solid #D1B06B; 
-    background: none; 
-    color: white;
-}
-.header{
-    margin: auto;
-}
-
-header h2{
-    color: #1F2732;
+    text-transform: capitalize;
     
 }
-.section .h2{
-    color: #1F2732;
+.article_numero h4{
+    font-size: 15px;
+    padding-top: 5px;
+    color: #FFF;
+    font-family: "Outfit";
+    font-weight: 100;
+    font-style: normal;
+    line-height: normal;
 }
-.Contacto h2{
-    color: #1F2732;
+.div_oficina{
+    background: #161D27;
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
+.article_img .imagen{
+    width: 75%;
+
+}
+.sesion_oficina{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+
+  
+}
+.article_oficina h3{
+    color: #FFF;
+    font-family: "Outfit";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+.article_oficina h5{
+    font-size: 12px;
+    color: #CCAA60;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    
+}
+
+
+
+
+
 
 
 
@@ -263,15 +295,16 @@ header h2{
 
 .hoja_lectura{
     background: white;
+    padding-top: 10%;
    
  
 }
 .div_blanco{
     margin: auto;
-    width: 67%;
+    width: 70%;
     display: grid;
     column-gap: 57px;
-    grid-template-rows: 210px 250px 250px;
+    grid-template-rows: 35% 40% 40%;
     grid-template-areas:
         "section_uno    section_dos"
         "section_tres   section_cuatro"
@@ -286,6 +319,9 @@ header h2{
     flex-direction: column;
     margin-bottom: 5%;
    
+}
+.header h2{
+    margin: auto;
 }
 .header .img{
     width: 12%;
@@ -328,13 +364,14 @@ header h2{
     border-bottom: 1px solid  rgb(187, 184, 184);
     padding-top: 40px;
 }
-.section p{
+.section .p{
     padding-top: 12px;
+    color: #161D27;
 
 
 }
 .Contacto{
-    padding-top: 6%;
+    padding-top: 15%;
     padding-bottom: 10%;
     width: 30%;
     margin: auto;
@@ -343,6 +380,9 @@ header h2{
     justify-content: center;
     row-gap: 20px;
 
+}
+.Contacto h2{
+    margin: auto;
 }
 .Contacto .parrafos{
     color: #909090;
@@ -364,21 +404,40 @@ header h2{
     background: white;
     border:1px solid #D1B06B;;
 }
-
-
 .h2{
     color: #1F2732;
-    font-family: "Cormorant Garamond";
+    font-family: Cormorant Garamond;
     font-size: 30px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
 }
 .hoja_lectura .section{
     color: #909090;
-    font-family: "Outfit";
+    font-family: Outfit;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

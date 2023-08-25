@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap");
+/*------------------------------------------Estilos Banner-------------------------------------------------------  */
+.Banner{
+    display:flex;
+    background-image: url(/imgs/img-Pratices/Fondo-Banner.png);
+    background-color: #1F2732;
+    padding: 2% 14% 8% 14%;
+}
+.Banner_Cuerpo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.Cuerpo_Medio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8%;
+    gap: 10px;
+}
+.Cuerpo_Medio h1{
+    font-family: "Cormorant Garamond";
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.Cuerpo_Medio img{
+    width: 115px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor_change{
+    width: 100%;
+    padding-top: 18% ;
+    padding-bottom: 18%;
+    background: #1F2732;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_naranja{
+    background: #D1B06B;
+    width: 40%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articles{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.v1{
+    padding: 15px 12px 15px 12px;
+    color: white;
+    background: #1F2732;
+}
+.v1 h1{
+    color: #FFF;
+    font-family: "Outfit";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    
+}
+.frase{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.frase p{
+    color: #1F2732;
+    font-family: "Outfit";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}

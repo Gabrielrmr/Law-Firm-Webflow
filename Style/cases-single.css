@@ -83,43 +83,19 @@ nav ul li a{
     margin-top: 50px;
 }
 /*MAIN*/
-.Main-Principal{
-    display: grid;
-    grid-template-columns: auto;
-    gap: 30px;
+.Main-Img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
 }
-.Main-Content-One{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.Main-Content-Two{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.Main-Content-Three{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.Img-Main{
-    display: flex;
-    width: 93%;
-}
-.Footer-One{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background: #fff;
-    margin-top: 100px;
-}
-.Footer-One-Img{
+.Single-Img{
     width: 80%;
-    padding: 70px;
 }
+.Photo-Img{
+    width: 50%;
+}
+
 /*FOOTER*/
 a{
     color: #fff;
